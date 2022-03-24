@@ -27,4 +27,4 @@ echo "ngrok exited $?"
 Alternatively, you can directly add the Authtoken to your `ngrok.yml` configuration file. By default this file is located at `~/.ngrok2/ngrok.yml`.
 
 # In `ngrok.yml`
-authtoken: (your authtoken)
+`authtoken: (your authtoken)`
