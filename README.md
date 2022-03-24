@@ -1,6 +1,6 @@
 # ngrok setup 
 
-Bash script I made to quickly setup `ngrok` and login in crucial situations. Please remember if you save `ngrok` on your Desktop, then run `cd Desktop` then run `cd ngrok (hit tab button for completion)`. Then run `chmod u+x ./ngrok.sh` then after that `./ngrok.sh` once again. I think `ngrok` is a great tool for emergencies and when you need to come up clutch, so why not also use this automated setup I have!
+Bash script I made to quickly setup `ngrok` and login in crucial situations. Please remember if you save `ngrok` on your Desktop, then run `cd Desktop` then run `cd ngrok (hit tab button for completion)`. Then run `chmod u+x ./ngrok.sh` then after that `./ngrok.sh` once again. I think `ngrok` is a great tool for emergencies and when you need to come up clutch, so why not also use this automated setup I have:
 
 <img width="312" alt="Screen Shot 2022-03-24 at 7 16 32 AM" src="https://user-images.githubusercontent.com/20936398/159937989-5682a1a2-adb1-4d65-b729-60f47597a622.png">
 
@@ -24,7 +24,6 @@ sudo systemctl start sshd || exit $?
 echo "Starting ngrok..."
 ./ngrok tcp 22 --authtoken=$NGROK_TOKEN --log=stdout --log-level=debug
 echo "ngrok exited $?" 
-
 ```
 
 ## Alternatives for ngrok auth tokens 
@@ -32,4 +31,5 @@ echo "ngrok exited $?"
 Alternatively, you can directly add the Authtoken to your `ngrok.yml` configuration file. By default this file is located at `~/.ngrok2/ngrok.yml`.
 
 # In `ngrok.yml`
+
 `authtoken: (your authtoken)`
