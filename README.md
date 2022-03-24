@@ -1,5 +1,5 @@
 # ngrok-bash-quick-setup
-Bash script I made to quickly setup ngrok and login in crucial situations.
+Bash script I made to quickly setup ngrok and login in crucial situations. Please remember if you save `ngrok` on your Desktop, then run `cd Desktop` then run `cd ngrok (hit tab button for completion)`. Then run `chmod u+x ./ngrok.sh` then after that `./ngrok.sh` once again.
 
 ```bash
 #!/bin/bash
