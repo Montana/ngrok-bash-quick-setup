@@ -20,3 +20,10 @@ echo -e "./ngrok help"
 echo -e "./ngrok http 80"
 echo -e "./ngrok tcp 22"
 ```
+
+## Alternatives for ngrok auth tokens 
+
+Alternatively, you can directly add the Authtoken to your `ngrok.yml` configuration file. By default this file is located at `~/.ngrok2/ngrok.yml`.
+
+# In `ngrok.ym`l
+authtoken: (your authtoken)
