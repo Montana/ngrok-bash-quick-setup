@@ -1,0 +1,7 @@
+tunnels:
+      http:
+      proto: http
+       addr: 80
+      tcp:
+       proto: tcp
+      addr: 9090
